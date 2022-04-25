@@ -62,7 +62,5 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads:19.5.0'
     implementation 'com.google.android.ads.consent:consent-library:1.0.8'
 
-    implementation("com.huawei.hms:ads:3.4.53.300"){
-        exclude group: "com.huawei.hms", module:"3.4.53.300"
-    }
+    compileOnly("com.huawei.hms:ads:3.4.53.300")
 }
